@@ -9,7 +9,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "ocean"
+theme = "dark"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -22,7 +22,7 @@ font = ""
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "M"
+font_size = "L"
 
 ############################
 ## Basic Info
@@ -45,6 +45,12 @@ org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
+
+# Add company info. Add true to activate.
+CompanyInfo = "true"
+CompanyRegistration = "Registered in England and Wales."
+CompanyNumber = "Company number: 06018812"
+CompanyVAT = "VAT number: 898727836"
 
 ############################
 ## Site Features
@@ -133,7 +139,7 @@ date_format = "Jan 2, 2006"
 time_format = "3:04 PM"
 
 # Address format (choose from the [address_formats] list below or add you own to the list).
-address_format = "en-us"
+address_format = "en-gb"
 
 ############################
 ## Advanced
@@ -164,11 +170,11 @@ plugins_js  = []
 
 # Available address formats.
 [address_formats]
-  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+ # en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
   en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
-  de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
-  fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
-  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
+#  de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+ # fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+  #zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
 
 # Configuration of publication pages.
 [publications]
@@ -251,7 +257,7 @@ plugins_js  = []
   #   3: OpenStreetMap (Mapbox)
   engine = 2
   api_key = ""
-  zoom = 10
+  zoom = 15
 
 ############################
 ## Marketing
